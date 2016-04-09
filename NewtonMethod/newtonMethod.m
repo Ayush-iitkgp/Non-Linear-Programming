@@ -10,7 +10,7 @@ function [X,F,Iters] = newtonMethod(N, X, gradToler, XToler, MaxIter, myFx)
 % gradToler - tolerance for the norm of the slopes
 % XToler - array of tolerance values for the variables' refinements
 % MaxIter - maximum number of iterations
-% myFx - name of the optimized function
+% f - name of the function to be optimized
 %
 % Output
 %
